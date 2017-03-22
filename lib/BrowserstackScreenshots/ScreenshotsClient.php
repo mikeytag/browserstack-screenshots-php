@@ -20,11 +20,11 @@ class ScreenshotsClient {
    * @throws \InvalidArgumentException
    */
   function __construct($credentials) {
-    if (empty($credentials->username) || empty($credentials->password)) {
+    if (empty($credentials['username']) || empty($credentials['password'])) {
       throw new \InvalidArgumentException('Username and password parameters are required.');
     }
-    $this->client = new \Guzzle\Http\Client('http://www.browserstack.com/screenshots');
-    $this->client->setDefaultOption('auth', array($credentials->username, $credentials->password, 'Basic'));
+    $this->client = new \Guzzle\Http\Client('https://www.browserstack.com/screenshots');
+    $this->client->setDefaultOption('auth', array($credentials['username'], $credentials['password'], 'Basic'));
   }
 
   /**
