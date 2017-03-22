@@ -12,13 +12,13 @@
 dependency. You can have Composer do this for you by using this command:
 
     ``` sh
-    $ php composer.phar require ksenzee/browserstack-screenshots-php:*
+    $ php composer.phar require mikeytag/browserstack-screenshots-php:*@dev
     ```
 
     Or, if you already have Composer installed:
 
     ``` sh
-    $ composer require ksenzee/browserstack-screenshots-php:*
+    $ composer require mikeytag/browserstack-screenshots-php:*@dev
     ```
 
     Or if you'd rather, you can create your composer.json file by hand:
@@ -26,7 +26,7 @@ dependency. You can have Composer do this for you by using this command:
     ``` json
     {
         "require": {
-            "ksenzee/browserstack-screenshots-php": "*"
+            "mikeytag/browserstack-screenshots-php": "*@dev"
         }
     }
     ```
