@@ -1,14 +1,18 @@
 {
-    "name": "ksenzee/browserstack-screenshots-php",
+    "name": "mikeytag/browserstack-screenshots-php",
     "type": "library",
     "description": "A PHP client for the Browserstack Screenshots API",
     "keywords": ["browserstack", "screenshots"],
-    "homepage": "https://github.com/ksenzee/browserstack-screenshots-php",
+    "homepage": "https://github.com/mikeytag/browserstack-screenshots-php",
     "license": ["MIT", "GPL-2.0+"],
     "authors": [
         {
           "name": "Katherine Senzee",
           "homepage": "https://github.com/ksenzee"
+        },
+        {
+          "name": "Michael Taggart",
+          "homepage": "https://github.com/mikeytag"
         }
     ],
     "require": {
